@@ -1,5 +1,7 @@
 # Paper Alarm
 
+简体中文 · [English](README.en.md)
+
 一款纸感界面的 Android 闹钟，支持公历、农历生日提醒。离线运行，无广告，无需账户。
 
 [下载 APK](https://github.com/ZionHeZY/paper-alarm/releases/latest) · Android 13+
