@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Alarm" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:windowSplashScreenBackground">#000000</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.Alarm.Ring" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#E8E8E8</item>
+        <item name="android:navigationBarColor">#E8E8E8</item>
+        <item name="android:windowBackground">#E8E8E8</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

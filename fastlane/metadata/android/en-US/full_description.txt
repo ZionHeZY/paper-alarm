@@ -1,0 +1,12 @@
+Paper Alarm is an offline alarm and birthday reminder app for Android 13 and later, with a paper-inspired interface and Android system fonts.
+
+• One-time and weekly alarms, labels, five tones and adjustable snooze duration.
+• Solar and Chinese lunar birthdays with yearly ringing reminders, optional birth year, cards and lists.
+• Import birthdays from Android contacts or write them to an existing or new contact. Lunar birthdays use a custom “农历生日” event. Writing replaces the existing birthday in the same calendar.
+• Ringing notifications and lock-screen reminders, subject to Android permissions and device background restrictions.
+
+If a lunar leap month is absent, the regular month is used; missing days use the end of the month.
+
+No Internet permission, advertising, analytics or account is required. Alarm data stays in app-private storage and is removed on uninstall. Contacts permissions are optional for contact features. Your system contact account may sync birthdays written to contacts independently of this app.
+
+Notifications, exact alarms, full-screen display, overlay access and battery/background settings support ringing. Test an alarm on your device after configuring these settings.

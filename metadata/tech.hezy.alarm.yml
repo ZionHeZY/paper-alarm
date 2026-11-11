@@ -1,0 +1,30 @@
+Categories:
+  - Alarm Clock
+License: MIT
+AuthorName: HeZY
+SourceCode: https://github.com/ZionHeZY/paper-alarm
+IssueTracker: https://github.com/ZionHeZY/paper-alarm/issues
+
+AutoName: Paper Alarm
+
+RepoType: git
+Repo: https://github.com/ZionHeZY/paper-alarm.git
+
+Builds:
+  - versionName: 1.2.0
+    versionCode: 3
+    commit: v1.2.0
+    subdir: app
+    sudo:
+      - apt-get update
+      - apt-get install -y openjdk-17-jdk-headless
+    gradle:
+      - yes
+    prebuild: sdkmanager 'platforms;android-35' 'build-tools;34.0.0'
+    gradleprops:
+      - org.gradle.java.home=/usr/lib/jvm/java-17-openjdk-amd64
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags ^v[0-9]+\.[0-9]+\.[0-9]+$
+CurrentVersion: 1.2.0
+CurrentVersionCode: 3

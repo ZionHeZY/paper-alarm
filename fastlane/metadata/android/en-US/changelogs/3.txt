@@ -1,0 +1,1 @@
+Paper Alarm 1.2.0: public source release with a paper-inspired interface and Android system fonts. Includes one-time and weekly alarms, adjustable snooze, solar and lunar birthday reminders, and contact birthday import/export. Runs offline on Android 13 and later.
